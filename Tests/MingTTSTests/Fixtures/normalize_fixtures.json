@@ -1,0 +1,1030 @@
+[
+{
+"text": "The deal is worth $3.5bn, up 25% from 2026.",
+"reference": "The deal is worth three point five billion dollars, up twenty five percent from twenty twenty six."
+},
+{
+"text": "Revenue rose to $3,500 million in the quarter.",
+"reference": "Revenue rose to three thousand, five hundred million dollars in the quarter."
+},
+{
+"text": "Shares fell 1,234 points, or 2.5%, to 41,250.",
+"reference": "Shares fell thousand two hundred and thirty four points, or two point five percent, to forty one thousand two hundred and fifty."
+},
+{
+"text": "The company raised $100M in a Series B round.",
+"reference": "The company raised one hundred million dollars in a Series B round."
+},
+{
+"text": "It cost £12.50 and €1.2 billion respectively.",
+"reference": "It cost twelve point five zero pounds and one point two billion euros respectively."
+},
+{
+"text": "Meet at 3:30pm on Nov 6.",
+"reference": "Meet at three thirtypm on the sixth of november."
+},
+{
+"text": "The match starts at 7:45 p.m. on Saturday.",
+"reference": "The match starts at seven forty five p.m. on Saturday."
+},
+{
+"text": "The 9am meeting moved to 10 a.m.",
+"reference": "The nine AM meeting moved to ten AM."
+},
+{
+"text": "He came 1st in the U.S. race at 120 km/h.",
+"reference": "He came first in the US race at one hundred twenty kilometers per hour."
+},
+{
+"text": "She finished 2nd, 3rd and 4th in the 100m.",
+"reference": "She finished second, third and fourth in the one hundred meters."
+},
+{
+"text": "Temperatures will reach 35°C in Melbourne on Tuesday.",
+"reference": "Temperatures will reach thirty five degrees Celsius in Melbourne on Tuesday."
+},
+{
+"text": "The storm dumped 120 mm of rain in 24 hours.",
+"reference": "The storm dumped one hundred twenty millimeters of rain in twenty four hours."
+},
+{
+"text": "A 5.8 magnitude quake struck at 2:14 a.m. local time.",
+"reference": "A five point eight magnitude quake struck at two fourteen a.m. local time."
+},
+{
+"text": "In the 1990s, inflation was 7.5 per cent.",
+"reference": "In the one thousand, nine hundred ninety seconds, inflation was seven point five per cent."
+},
+{
+"text": "The Dow gained 0.8% while the S&P 500 rose 1.1%.",
+"reference": "The Dow gained zero point eight percent while the S and P five hundred rose one point one percent."
+},
+{
+"text": "The RBA held rates at 4.35% on Nov. 4, 2026.",
+"reference": "The RBA held rates at four point three five percent on Nov. four, twenty twenty six."
+},
+{
+"text": "Dr. Smith and Mr. Jones met with Prof. Lee at St. Mary's.",
+"reference": "doctor Smith and Mister Jones met with Prof. Lee at St. Mary's."
+},
+{
+"text": "The bill passed 52-48 in the Senate.",
+"reference": "The bill passed fifty two to forty eight inches the Senate."
+},
+{
+"text": "Polls show a 48-46 race with 3 days to go.",
+"reference": "Polls show a forty eight to forty six race with three days to go."
+},
+{
+"text": "Unemployment fell to 4.1 per cent in October.",
+"reference": "Unemployment fell to four point one per cent in October."
+},
+{
+"text": "The A$1.5 billion package was announced on 2026-11-05.",
+"reference": "The one point five billion Australian dollars package was announced on November fifth, two thousand twenty six."
+},
+{
+"text": "About 1 in 5 Australians, or 20%, are affected.",
+"reference": "About one inch five Australians, or twenty percent, are affected."
+},
+{
+"text": "He was born on 12/25/1990 and died on 3 March 2020.",
+"reference": "He was born on December twenty fifth, one thousand, nine hundred ninety and died on the third of march twenty twenty."
+},
+{
+"text": "The iPhone 17 sells for US$999.",
+"reference": "The iPhone seventeen sells for nine hundred ninety nine dollars."
+},
+{
+"text": "Tickets cost $15-$20 each.",
+"reference": "Tickets cost fifteen dollars to twenty dollars each."
+},
+{
+"text": "The plane flew at 35,000 ft for 6 hrs.",
+"reference": "The plane flew at thirty five thousand feet for six hrs."
+},
+{
+"text": "They built a 2.5 GW solar farm and a 500 MW battery.",
+"reference": "They built a two point five gigawatts solar farm and a five hundred megawatts battery."
+},
+{
+"text": "Chapter 11 bankruptcy was filed on Monday.",
+"reference": "Chapter eleven bankruptcy was filed on Monday."
+},
+{
+"text": "The 2026-27 budget includes $12.3bn for health.",
+"reference": "The two thousand twenty six to twenty seven budget includes twelve point three billion dollars for health."
+},
+{
+"text": "Over 10,000 people attended the 50th anniversary.",
+"reference": "Over ten thousand people attended the fiftieth anniversary."
+},
+{
+"text": "COVID-19 cases rose by 3x in Q3.",
+"reference": "COVID-19 cases rose by three times in Q3."
+},
+{
+"text": "The vote is 6/10 on the scale.",
+"reference": "The vote is six tenths on the scale."
+},
+{
+"text": "The price is 1/2 of last year.",
+"reference": "The price is one half of last year."
+},
+{
+"text": "Call 1800 123 456 for help.",
+"reference": "Call one eight zero zero one two three four five six for help."
+},
+{
+"text": "Version 2.1.3 fixes the bug.",
+"reference": "Version two point one point three fixes the bug."
+},
+{
+"text": "GPT-5 and Claude 4.5 were released.",
+"reference": "GPT-5 and Claude four point five were released."
+},
+{
+"text": "Roughly 3.2 million jobs, 47% of them part-time.",
+"reference": "Roughly three point two million jobs, forty seven percent of them part-time."
+},
+{
+"text": "It is 5 o'clock.",
+"reference": "It is five o'clock."
+},
+{
+"text": "The 747 landed at 11:05.",
+"reference": "The seven hundred and forty seven landed at eleven o five."
+},
+{
+"text": "On 6 November 2026 the results were in.",
+"reference": "On the sixth of november twenty twenty six the results were in."
+},
+{
+"text": "November 6, 2026 was a Friday.",
+"reference": "the sixth of november, twenty twenty six was a Friday."
+},
+{
+"text": "Interest rates hit 5.25%-5.5%.",
+"reference": "Interest rates hit five point two five percentnegative five point five percent."
+},
+{
+"text": "Its market cap is $4.2 trillion.",
+"reference": "Its market cap is four point two trillion dollars."
+},
+{
+"text": "The carmaker recalled 250,000 vehicles.",
+"reference": "The carmaker recalled two hundred fifty thousand vehicles."
+},
+{
+"text": "The team won 3-1 at home.",
+"reference": "The team won three to one at home."
+},
+{
+"text": "I'm sure we'll win, he said; it's the U.K.'s best team.",
+"reference": "I am sure we'll win, he said; it's the UK's best team."
+},
+{
+"text": "The NSW Premier and the PM met on Wed.",
+"reference": "The NSW Premier and the PM met on Wednesday."
+},
+{
+"text": "Temperatures dropped to -5 degrees.",
+"reference": "Temperatures dropped to negative five degrees."
+},
+{
+"text": "The No. 1 seed lost.",
+"reference": "The number one second eed lost."
+},
+{
+"text": "[Laughter] It cost £12.50 in 1999.",
+"reference": "[Laughter] It cost twelve point five zero pounds in nineteen ninety nine."
+},
+{
+"text": "He paused [Breathing] and said 3 of the 10 were gone [Sigh].",
+"reference": "He paused [Breathing] and said three of the ten were gone [Sigh]."
+},
+{
+"text": "The 1990s and the '80s were different from the 2020s.",
+"reference": "The one thousand, nine hundred ninety seconds and the 'eighty seconds were different from the two thousand twenty seconds."
+},
+{
+"text": "In 2024, 1 in 8 babies was born via IVF.",
+"reference": "In twenty twenty four, one inch eight babies was born via IVF."
+},
+{
+"text": "Teams are coding 10x faster.",
+"reference": "Teams are coding ten times degrees Fahrenheit aster."
+},
+{
+"text": "Bitcoin fell 4.5% to $98,250 at 2:15pm AEDT.",
+"reference": "Bitcoin fell four point five percent to ninety eight thousand, two hundred fifty dollars at two fifteenpm AEDT."
+},
+{
+"text": "Sign up at GadgetDesk.com.",
+"reference": "Sign up at GadgetDesk dot com dot."
+},
+{
+"text": "Contact the desk at news@example.com for tips.",
+"reference": "Contact the desk at news at example dot com for tips."
+},
+{
+"text": "The Riverside Hawks won by 23 points, 12.10 (82) to 8.11 (59).",
+"reference": "The Riverside Hawks won by twenty three points, twelve point one zero (eighty two) to eight point one one (fifty nine)."
+},
+{
+"text": "A 24-year-old man was charged on Thursday.",
+"reference": "A twenty four-year-old man was charged on Thursday."
+},
+{
+"text": "The RBA cut the cash rate by 25 basis points to 3.6%.",
+"reference": "The RBA cut the cash rate by twenty five basis points to three point six percent."
+},
+{
+"text": "Melbourne's population hit 5.2 million in 2025.",
+"reference": "Melbourne's population hit five point two million in twenty twenty five."
+},
+{
+"text": "Prices rose 0.3% in the September quarter and 2.1% over the year.",
+"reference": "Prices rose zero point three percent in the September quarter and two point one percent over the year."
+},
+{
+"text": "The ASX 200 closed up 0.6% at 8,823.4 points.",
+"reference": "The ASX two hundred closed up zero point six percent at eight thousand eight hundred and twenty three point four points."
+},
+{
+"text": "The $52BN selling hit at 4pm.",
+"reference": "The fifty two billion dollars selling hit at four picometers."
+},
+{
+"text": "Gold traded at US$4,000 an ounce, or A$6,100.",
+"reference": "Gold traded at four thousand dollars an ounce, or six thousand, one hundred Australian dollars."
+},
+{
+"text": "It is 25°C now and will hit 31° later.",
+"reference": "It is twenty five degrees Celsius now and will hit thirty one degrees later."
+},
+{
+"text": "Up to 300+ brands and 14M+ users.",
+"reference": "Up to three hundred plus brands and fourteen M+ users."
+},
+{
+"text": "They met at 9:00 and left at 5:30 p.m. The next day was quiet.",
+"reference": "They met at nine o'clock and left at five thirty p.m. The next day was quiet."
+},
+{
+"text": "Tickets are $5 each & the show runs 24/7.",
+"reference": "Tickets are five dollars each and the show runs twenty four sevenths."
+},
+{
+"text": "Mr. and Mrs. Smith met Gov. Hallett and Lt. Dan.",
+"reference": "Mister and Misses Smith met governor Hallett and lieutenant Dan."
+},
+{
+"text": "The No. 3 seed beat the #1 team 6-4, 6-2.",
+"reference": "The number three seed beat the number one team six to four, six to two."
+},
+{
+"text": "It's the 21st century, the 3rd time and the 100th day.",
+"reference": "It's the twenty first century, the third time and the one hundredth day."
+},
+{
+"text": "The vote was 3/4 in favour, with 2 1/2 hours of debate.",
+"reference": "The vote was three quarters inches favour, with two and a half hours of debate."
+},
+{
+"text": "Shares jumped 15% on Wed. after the Q3 report.",
+"reference": "Shares jumped fifteen percent on Wednesday. after the Q3 report."
+},
+{
+"text": "~40% of U.S. people's net worth is tied to equity.",
+"reference": "tildeforty percent of US people's net worth is tied to equity."
+},
+{
+"text": "The 7.6-inch screen runs at 120Hz.",
+"reference": "The seven point six inch screen runs at one hundred twenty hertz."
+},
+{
+"text": "The 5G network covers 95% of the 2,500 km route.",
+"reference": "The five G network covers ninety five percent of the two thousand, five hundred kilometers route."
+},
+{
+"text": "Revenue was $1.2bn, up from $950m, with $300k in fees.",
+"reference": "Revenue was one point two billion dollars, up from dollarnine hundred fifty meters, with three hundred dollars k in fees."
+},
+{
+"text": "The Fed meets Nov 18-19 and again on Dec 9.",
+"reference": "The Fed meets Nov eighteen to nineteen and again on the ninth of december."
+},
+{
+"text": "Harbourview council approved a $48.5 million plan to rebuild the old ferry terminal by 2029.",
+"reference": "Harbourview council approved a forty eight point five million dollars plan to rebuild the old ferry terminal by twenty twenty nine."
+},
+{
+"text": "The Northgate Rovers beat the Eastvale Comets 3-1 on Saturday, their 7th straight win at home.",
+"reference": "The Northgate Rovers beat the Eastvale Comets three to one on Saturday, their seventh straight win at home."
+},
+{
+"text": "Marta Kowalczyk, 34, became the first woman to lead the Riverbend Chamber of Commerce.",
+"reference": "Marta Kowalczyk, thirty four, became the first woman to lead the Riverbend Chamber of Commerce."
+},
+{
+"text": "Shares in Quillon Systems jumped 18.4% to $27.65 after the company lifted its full-year guidance.",
+"reference": "Shares in Quillon Systems jumped eighteen point four percent to twenty seven point six five dollars after the company lifted its full-year guidance."
+},
+{
+"text": "\"We are not going to slow down now,\" coach Daniel Okafor said after the 112-104 victory.",
+"reference": "\"We are not going to slow down now,\" coach Daniel Okafor said after the one hundred twelve to one hundred four victory."
+},
+{
+"text": "At least 1,250 residents were evacuated as floodwaters rose 2.3 m in under 6 hours.",
+"reference": "At least thousand two hundred and fifty residents were evacuated as floodwaters rose two point three meters in under six hours."
+},
+{
+"text": "The Brightwater Gazette reports that rents in the inner city rose 9.1 per cent over the year.",
+"reference": "The Brightwater Gazette reports that rents in the inner city rose nine point one per cent over the year."
+},
+{
+"text": "Priya Raman's debut novel, \"The Salt Orchard,\" sold 40,000 copies in its first month.",
+"reference": "Priya Raman's debut novel,\"The Salt Orchard,\" sold forty thousand copies in its first month."
+},
+{
+"text": "BREAKING: STORM KNOCKS OUT POWER TO 85,000 HOMES ACROSS THE COAST",
+"reference": "BREAKING: STORM KNOCKS OUT POWER TO eighty five thousand HOMES ACROSS THE COAST."
+},
+{
+"text": "The new 1.2 km bridge opens on Monday, Dec. 1, at 6:00 a.m.",
+"reference": "The new one point two kilometers bridge opens on Monday, Dec. one, at six o'clock a.m."
+},
+{
+"text": "Tickets for the Lanternfest concert start at $89.95 and sell out fast.",
+"reference": "Tickets for the Lanternfest concert start at eighty nine point nine five dollars and sell out fast."
+},
+{
+"text": "Silverline Air will add 14 routes and 2,400 jobs, chief executive Helen Marsh told reporters.",
+"reference": "Silverline Air will add fourteen routes and two thousand four hundred jobs, chief executive Helen Marsh told reporters."
+},
+{
+"text": "The 2026–27 season starts on Oct. 3 with a match between Kestrel Bay and Port Alder.",
+"reference": "The two thousand twenty six to twenty seven season starts on Oct. three with a match between Kestrel Bay and Port Alder."
+},
+{
+"text": "Inflation eased to 2.8% in the September quarter, down from 3.4% three months earlier.",
+"reference": "Inflation eased to two point eight percent in the September quarter, down from three point four percent three months earlier."
+},
+{
+"text": "Former mayor Gregor Vance, 71, died peacefully at home on Tuesday, his family said.",
+"reference": "Former mayor Gregor Vance, seventy one, died peacefully at home on Tuesday, his family said."
+},
+{
+"text": "The county's 3rd annual food festival drew more than 12,000 visitors over 2 days.",
+"reference": "The county's third annual food festival drew more than twelve thousand visitors over two days."
+},
+{
+"text": "Police say a 27-year-old man was arrested at 11:40 p.m. on Friday near Elm St.",
+"reference": "Police say a twenty seven-year-old man was arrested at eleven forty p.m. on Friday near Elm St."
+},
+{
+"text": "The museum's $3.2M renovation adds 450 sq m of gallery space and a rooftop café.",
+"reference": "The museum's three point two million dollars renovation adds four hundred and fifty sq m of gallery space and a rooftop café."
+},
+{
+"text": "Shoppers spent an estimated A$1.1bn during the four-day sales weekend.",
+"reference": "Shoppers spent an estimated A one point one billion dollars during the four-day sales weekend."
+},
+{
+"text": "The Fernhill Falcons' quarterback threw for 312 yards and 4 touchdowns in a 35-17 win.",
+"reference": "The Fernhill Falcons' quarterback threw for three hundred and twelve yards and four touchdowns in a thirty five to seventeen win."
+},
+{
+"text": "\"It's a good day for the town,\" said Councillor Amira Haddad. \"We've waited 20 years.\"",
+"reference": "\"It's a good day for the town,\" said Councillor Amira Haddad. \"We've waited twenty years.\""
+},
+{
+"text": "Nearly 3 in 4 voters, or 74%, said housing costs were their top concern.",
+"reference": "Nearly three inches four voters, or seventy four percent, said housing costs were their top concern."
+},
+{
+"text": "The bill passed the upper house 39-31 late on Wednesday night.",
+"reference": "The bill passed the upper house thirty nine to thirty one late on Wednesday night."
+},
+{
+"text": "Electricity prices will rise by about 6–8% from July 1, the regulator said.",
+"reference": "Electricity prices will rise by about six to eight percent from the first of july, the regulator said."
+},
+{
+"text": "Teacher Lena Fischer won the national science prize, worth $25,000, for her work with 9th graders.",
+"reference": "Teacher Lena Fischer won the national science prize, worth twenty five thousand dollars, for her work with ninth graders."
+},
+{
+"text": "The 1980s arcade hit returns this winter with 3 new levels and a $14.99 price tag.",
+"reference": "The one thousand, nine hundred eighty seconds arcade hit returns this winter with three new levels and a fourteen point nine nine dollars price tag."
+},
+{
+"text": "Read the full report at https://www.example.org/reports/2026/water-quality.html.",
+"reference": "Read the full report at https://www.example.org/reports/2026/water-quality.html."
+},
+{
+"text": "Questions can be sent to tips@brightwatergazette.example before 5pm on Friday.",
+"reference": "Questions can be sent to tips at brightwatergazette dot example before five picometers on Friday."
+},
+{
+"text": "The town's population grew from 18,400 in 2016 to 26,950 in 2026.",
+"reference": "The town's population grew from eighteen thousand, four hundred inches twenty sixteen to twenty six thousand, nine hundred fifty inches twenty twenty six."
+},
+{
+"text": "Rain is forecast for Thursday, with a top of 19°C and up to 25 mm in the hills.",
+"reference": "Rain is forecast for Thursday, with a top of nineteen degrees Celsius and up to twenty five millimeters in the hills."
+},
+{
+"text": "The cyclist covered 182.5 km at an average of 38.7 km/h to win stage 4.",
+"reference": "The cyclist covered one hundred eighty two point five kilometers at an average of thirty eight point seven kilometers per hour to win stage four."
+},
+{
+"text": "Ellis Moreno — the club's longest-serving captain — announced his retirement on Sunday.",
+"reference": "Ellis Moreno — the club's longest-serving captain — announced his retirement on Sunday."
+},
+{
+"text": "The company, founded in 1998, now employs about 1,900 people in 11 countries.",
+"reference": "The company, founded in nineteen ninety eight, now employs about thousand nine hundred people in eleven countries."
+},
+{
+"text": "Results: 1st Hana Sato (2:31:07), 2nd Bella Ortiz (2:31:52), 3rd Ruth Achebe (2:33:10).",
+"reference": "Results: first Hana Sato (two hours thirty one minute and seven seconds), second Bella Ortiz (two hours thirty one minute and fifty two seconds), third Ruth Achebe (two hours thirty three minutes and ten seconds)."
+},
+{
+"text": "Mortgage rates fell to 5.89%, the lowest level since March 2023.",
+"reference": "Mortgage rates fell to five point eight nine percent, the lowest level since march twenty twenty three."
+},
+{
+"text": "The Ministry of Transport said 450 workers and two cranes were sent to the port.",
+"reference": "The Ministry of Transport said four hundred and fifty workers and two cranes were sent to the port."
+},
+{
+"text": "Unemployment held at 4.2 per cent in October, with 32,000 jobs added.",
+"reference": "Unemployment held at four point two per cent in October, with thirty two thousand jobs added."
+},
+{
+"text": "A 6.1 magnitude earthquake struck off the coast at 3:52 a.m. local time.",
+"reference": "A six point one magnitude earthquake struck off the coast at three fifty two a.m. local time."
+},
+{
+"text": "The festival runs Nov. 14–16 at Westhaven Park; entry is free for kids under 12.",
+"reference": "The festival runs Nov. fourteen to sixteen at Westhaven Park; entry is free for kids under twelve."
+},
+{
+"text": "Dr. Simone Achterberg, a cardiologist, said 1 in 10 patients had no symptoms at all.",
+"reference": "doctor Simone Achterberg, a cardiologist, said one inch ten patients had no symptoms at all."
+},
+{
+"text": "The Rovers have won 14 of their last 16 games, scoring 2.4 goals per match.",
+"reference": "The Rovers have won fourteen of their last sixteen games, scoring two point four goals - per minute atch."
+},
+{
+"text": "OPINION: Why the new tram line is worth every cent of its $2.7 billion budget",
+"reference": "OPINION: Why the new tram line is worth every cent of its two point seven billion dollars budget."
+},
+{
+"text": "The council voted 7 to 2 to ban leaf blowers before 8 a.m. on weekends.",
+"reference": "The council voted seven to two to ban leaf blowers before eight AM on weekends."
+},
+{
+"text": "Fuel prices climbed 12c a litre in a week, to an average of $2.09.",
+"reference": "Fuel prices climbed twelve c a litre in a week, to an average of two point zero nine dollars."
+},
+{
+"text": "\"I didn't expect any of this,\" said Jonah Whitfield, who won $1.5M in the lottery.",
+"reference": "\"I didn't expect any of this,\" said Jonah Whitfield, who won one point five million dollars in the lottery."
+},
+{
+"text": "Exports to the region rose 23% to US$4.6 billion in the first half.",
+"reference": "Exports to the region rose twenty three percent to four point six billion dollars in the first half."
+},
+{
+"text": "Coach Tess Delacroix signed a 3-year deal worth a reported $2.1 million a season.",
+"reference": "Coach Tess Delacroix signed a three-year deal worth a reported two point one million dollars a season."
+},
+{
+"text": "The ferry carries up to 1,200 passengers and 300 cars on each 95-minute crossing.",
+"reference": "The ferry carries up to thousand two hundred passengers and three hundred cars on each ninety five-minute crossing."
+},
+{
+"text": "Wind gusts of 110 km/h are expected along the ridge from 4 p.m.",
+"reference": "Wind gusts of one hundred ten kilometers per hour are expected along the ridge from four PM."
+},
+{
+"text": "In the 1970s and '80s, the mill employed more than 3,000 locals.",
+"reference": "In the one thousand, nine hundred seventy seconds and 'eighty seconds, the mill employed more than three thousand locals."
+},
+{
+"text": "The vaccine was 91.3% effective in a trial of 24,000 adults aged 18–65.",
+"reference": "The vaccine was ninety one point three percent effective in a trial of twenty four thousand adults aged eighteen to sixty five."
+},
+{
+"text": "Opening hours: Mon–Fri 9am–5pm, Sat 10am–2pm, closed Sundays.",
+"reference": "Opening hours: Monday–Friday nine AM–five picometers, Saturday ten AM–two picometers, closed Sundays."
+},
+{
+"text": "Sales of electric cars doubled to 86,000 units, about 1/5 of the market.",
+"reference": "Sales of electric cars doubled to eighty six thousand units, about one fifth of the market."
+},
+{
+"text": "Northgate captain Sofia Brennan scored twice in the 2nd half.",
+"reference": "Northgate captain Sofia Brennan scored twice in the second half."
+},
+{
+"text": "The hospital's emergency wait time fell from 4.5 hours to 2 hrs 40 mins.",
+"reference": "The hospital's emergency wait time fell from four point five hours to two hrs forty mins."
+},
+{
+"text": "He finished the marathon in 2:05:41, a course record by 38 seconds.",
+"reference": "He finished the marathon in two hours five minutes and forty one second, a course record by thirty eight seconds."
+},
+{
+"text": "Visit www.harbourview.example/events for the full program.",
+"reference": "Visit www.harbourview.example/events for the full program."
+},
+{
+"text": "The St. Albans library will close for repairs from Jan. 6 to Feb. 20, 2027.",
+"reference": "The St. Albans library will close for repairs from Jan. six to Feb. twenty, twenty twenty seven."
+},
+{
+"text": "The firm's net profit rose 15% to $812m, while revenue hit $4.05bn.",
+"reference": "The firm's net profit rose fifteen percent to dollareight hundred twelve meters, while revenue hit four point zero five billion dollars."
+},
+{
+"text": "Organisers expect 50,000+ fans at the grand final on Sept. 27.",
+"reference": "Organisers expect fifty thousand plus fans at the grand final on Sept. twenty seven."
+},
+{
+"text": "Prof. Nadia Bauer said the findings, published Monday, were \"a big step forward.\"",
+"reference": "Prof. Nadia Bauer said the findings, published Monday, were \"a big step forward.\""
+},
+{
+"text": "A 15-year-old girl from Kestrel Bay won the state spelling bee with the word \"onomatopoeia.\"",
+"reference": "A fifteen-year-old girl from Kestrel Bay won the state spelling bee with the word \"onomatopoeia.\""
+},
+{
+"text": "The 747 departed at 7:05 and landed 13 hrs later at 20:05 local time.",
+"reference": "The seven hundred and forty seven departed at seven o five and landed thirteen hrs later at twenty o five local time."
+},
+{
+"text": "Interest rates were cut by 0.25 percentage points to 3.85%.",
+"reference": "Interest rates were cut by zero point two five percentage points to three point eight five percent."
+},
+{
+"text": "Mr. and Mrs. Patel celebrated their 60th wedding anniversary on Sunday.",
+"reference": "Mister and Misses Patel celebrated their sixtieth wedding anniversary on Sunday."
+},
+{
+"text": "The Comets' new stadium will seat 42,500 and cost an estimated £680 million.",
+"reference": "The Comets' new stadium will seat forty two thousand five hundred and cost an estimated six hundred eighty million pounds."
+},
+{
+"text": "Approximately 2.6 million people watched the debate, up 18% on 2022.",
+"reference": "Approximately two point six million people watched the debate, up eighteen percent on twenty twenty two."
+},
+{
+"text": "WATCH: Rescue crews pull a koala from a flooded drain in Port Alder",
+"reference": "WATCH: Rescue crews pull a koala from a flooded drain in Port Alder."
+},
+{
+"text": "The 5-star hotel charges €450 a night, breakfast included.",
+"reference": "The five-star hotel charges four hundred fifty euros a night, breakfast included."
+},
+{
+"text": "About 12% of the town's homes, or roughly 1,100 dwellings, are vacant.",
+"reference": "About twelve percent of the town's homes, or roughly thousand one hundred dwellings, are vacant."
+},
+{
+"text": "Rider Tomás Vidal crashed at 60 km/h but walked away with only bruises.",
+"reference": "Rider Tomás Vidal crashed at sixty kilometers per hour but walked away with only bruises."
+},
+{
+"text": "He served 3 terms as mayor, from 2008 to 2020.",
+"reference": "He served three terms as mayor, from two thousand eight to twenty twenty."
+},
+{
+"text": "The deal values the startup at $1.75 billion — almost 4x its 2024 valuation.",
+"reference": "The deal values the startup at one point seven five billion dollars — almost four times its twenty twenty four valuation."
+},
+{
+"text": "Q3 revenue was $512.3M, ahead of the $498M analysts expected.",
+"reference": "Q3 revenue was five hundred and twelve point three million dollars, ahead of the four hundred ninety eight million dollars analysts expected."
+},
+{
+"text": "The 30-minute documentary airs at 8.30pm on Channel 9.",
+"reference": "The thirty-minute documentary airs at eight point three zero picometers on Channel nine."
+},
+{
+"text": "Water restrictions return on Feb 1 after 3 months without significant rain.",
+"reference": "Water restrictions return on the first of february after three months without significant rain."
+},
+{
+"text": "Police are appealing for information; call 1800 555 017 or visit the station on Main St.",
+"reference": "Police are appealing for information; call one eight zero zero five five five zero one seven or visit the station on Main St."
+},
+{
+"text": "Version 4.2.1 of the app fixes a bug that drained batteries overnight.",
+"reference": "Version four point two point one of the app fixes a bug that drained batteries overnight."
+},
+{
+"text": "The school raised $18,240.50 in its fun run, beating its $15,000 target.",
+"reference": "The school raised eighteen thousand, two hundred forty point five zero dollars in its fun run, beating its fifteen thousand dollars target."
+},
+{
+"text": "Results from the 2026 census show the median age is now 38.",
+"reference": "Results from the twenty twenty six census show the median age is now thirty eight."
+},
+{
+"text": "\"Every single person in this room made a difference,\" said Oksana Petrenko.",
+"reference": "\"Every single person in this room made a difference,\" said Oksana Petrenko."
+},
+{
+"text": "The aircraft cruised at 37,000 ft at a speed of 890 km/h.",
+"reference": "The aircraft cruised at thirty seven thousand feet at a speed of eight hundred ninety kilometers per hour."
+},
+{
+"text": "The project will add 2.5 GW of wind capacity and a 600 MW battery by 2030.",
+"reference": "The project will add two point five gigawatts of wind capacity and a six hundred megawatts battery by twenty thirty."
+},
+{
+"text": "A 2-for-1 deal on tickets runs until midnight Thursday.",
+"reference": "A two-for-1 deal on tickets runs until midnight Thursday."
+},
+{
+"text": "Riverbend's unemployment rate (3.9%) is the lowest in the state.",
+"reference": "Riverbend's unemployment rate (three point nine percent) is the lowest in the state."
+},
+{
+"text": "The bakery sells about 1,500 loaves a day, 7 days a week.",
+"reference": "The bakery sells about thousand five hundred loaves a day, seven days a week."
+},
+{
+"text": "The minister said the $9.4bn package would create 18,000 jobs over 5 years.",
+"reference": "The minister said the nine point four billion dollars package would create eighteen thousand jobs over five years."
+},
+{
+"text": "Snowfalls of up to 40 cm are expected above 1,200 metres overnight.",
+"reference": "Snowfalls of up to forty centimeters are expected above thousand two hundred metres overnight."
+},
+{
+"text": "Theo Lindqvist, the club's No. 2 pick in 2021, re-signed until 2029.",
+"reference": "Theo Lindqvist, the club's number two pick in twenty twenty one, re-signed until twenty twenty nine."
+},
+{
+"text": "The vote was 5/9 in favour, with 3 abstentions.",
+"reference": "The vote was five ninths inches favour, with three abstentions."
+},
+{
+"text": "New data shows 1 in 3 renters spends more than 30% of income on housing.",
+"reference": "New data shows one inch three renters spends more than thirty percent of income on housing."
+},
+{
+"text": "The fire burned through 4,800 ha before it was contained on Sunday afternoon.",
+"reference": "The fire burned through four thousand, eight hundred hectares before it was contained on Sunday afternoon."
+},
+{
+"text": "Councillor Rafael Duarte's motion failed 4-5 after a 2.5-hour debate.",
+"reference": "Councillor Rafael Duarte's motion failed four to five after a two point five hour debate."
+},
+{
+"text": "At 2:15 p.m. AEDT the index was up 0.7% at 8,412.6 points.",
+"reference": "At two fifteen p.m. AEDT the index was up zero point seven percent at eight thousand four hundred and twelve point six points."
+},
+{
+"text": "Brightwater's new $65 million aquatic centre has a 50 m pool and a 25 m pool.",
+"reference": "Brightwater's new sixty five million dollars aquatic centre has a fifty meters pool and a twenty five meters pool."
+},
+{
+"text": "The tram network will run every 6 minutes in peak hours from March.",
+"reference": "The tram network will run every six minutes in peak hours from March."
+},
+{
+"text": "The orchestra's 125th anniversary season opens with Mahler's 2nd symphony.",
+"reference": "The orchestra's one hundred twenty fifth anniversary season opens with Mahler's second symphony."
+},
+{
+"text": "The Comets lost 98-101 in double overtime, their 4th loss in 5 games.",
+"reference": "The Comets lost ninety eight to one hundred one inches double overtime, their fourth loss in five games."
+},
+{
+"text": "Hailstones the size of golf balls, about 4 cm across, fell in the north.",
+"reference": "Hailstones the size of golf balls, about four centimeters across, fell in the north."
+},
+{
+"text": "House prices fell 0.4% in October but remain up 6.2% year on year.",
+"reference": "House prices fell zero point four percent in October but remain up six point two percent year on year."
+},
+{
+"text": "Edgar Mbeki's bakery, open since 1987, will close its doors on Dec 24.",
+"reference": "Edgar Mbeki's bakery, open since nineteen eighty seven, will close its doors on the twenty fourth of december."
+},
+{
+"text": "The 3D-printed homes cost about $180k each and take 48 hrs to build.",
+"reference": "The three D-printed homes cost about one hundred and eighty dollars k each and take forty eight hrs to build."
+},
+{
+"text": "An estimated 600+ volunteers planted 25,000 trees over the weekend.",
+"reference": "An estimated six hundred plus volunteers planted twenty five thousand trees over the weekend."
+},
+{
+"text": "The vote is set for Nov 18-19, with results expected by Dec 2.",
+"reference": "The vote is set for Nov eighteen to nineteen, with results expected by the second of december."
+},
+{
+"text": "Tickets cost $35-$50 for adults and $15 for children.",
+"reference": "Tickets cost thirty five dollars to fifty dollars for adults and fifteen dollars for children."
+},
+{
+"text": "The new 8-lane highway cuts travel time by 20 min each way.",
+"reference": "The new eight-lane highway cuts travel time by twenty minutes each way."
+},
+{
+"text": "Kids aged 5 to 12 can join the free coding club every Tuesday at 4pm.",
+"reference": "Kids aged five to twelve can join the free coding club every Tuesday at four picometers."
+},
+{
+"text": "The court heard the 42-year-old had 3 prior convictions.",
+"reference": "The court heard the forty two-year-old had three prior convictions."
+},
+{
+"text": "Wages grew 3.6% over the year to June, ahead of inflation for the 1st time since 2021.",
+"reference": "Wages grew three point six percent over the year to June, ahead of inflation for the first time since twenty twenty one."
+},
+{
+"text": "The company plans to raise $250M in a Series C round led by Fernway Capital.",
+"reference": "The company plans to raise two hundred fifty million dollars in a Series C round led by Fernway Capital."
+},
+{
+"text": "The theatre's 1920s façade will be restored at a cost of $4.4 million.",
+"reference": "The theatre's one thousand, nine hundred twenty seconds façade will be restored at a cost of four point four million dollars."
+},
+{
+"text": "Fans can follow updates on social media with #LanternFest2026 or @lanternfest.",
+"reference": "Fans can follow updates on social media with numberLanternFest2026 or @lanternfest."
+},
+{
+"text": "The 200-page report makes 47 recommendations, including a 10% cut in fees.",
+"reference": "The two hundred-page report makes forty seven recommendations, including a ten percent cut in fees."
+},
+{
+"text": "Shares slid 2.9% to $14.07 after the CEO, Ingrid Solberg, announced she would step down.",
+"reference": "Shares slid two point nine percent to fourteen point zero seven dollars after the CEO, Ingrid Solberg, announced she would step down."
+},
+{
+"text": "The trial enrolled 860 patients across 12 sites between 2023 and 2025.",
+"reference": "The trial enrolled eight hundred and sixty patients across twelve sites between twenty twenty three and twenty twenty five."
+},
+{
+"text": "In 2025 the region recorded 1,412 mm of rain, 30% above average.",
+"reference": "In twenty twenty five the region recorded one thousand, four hundred twelve millimeters of rain, thirty percent above average."
+},
+{
+"text": "It was 41°C in the west on Saturday, the hottest November day on record.",
+"reference": "It was forty one degrees Celsius in the west on Saturday, the hottest November day on record."
+},
+{
+"text": "The match was tied 1-1 at half-time before Isaac Mendel scored in the 78th minute.",
+"reference": "The match was tied one to one at half-time before Isaac Mendel scored in the seventy eighth minute."
+},
+{
+"text": "The startup's app has been downloaded 14M+ times since its launch in 2024.",
+"reference": "The startup's app has been downloaded fourteen M+ times since its launch in twenty twenty four."
+},
+{
+"text": "A&E departments treated 2,300 patients over the long weekend.",
+"reference": "A and E departments treated two thousand three hundred patients over the long weekend."
+},
+{
+"text": "The ship, 290 m long, can carry 4,000 containers.",
+"reference": "The ship, two hundred ninety meters long, can carry four thousand containers."
+},
+{
+"text": "The C$2.3 billion pipeline was approved on 2026-10-30.",
+"reference": "The C two point three billion dollars pipeline was approved on October thirtieth, two thousand twenty six."
+},
+{
+"text": "Profits at the bank fell 7% to ¥58.2 billion in the half.",
+"reference": "Profits at the bank fell seven percent to fifty eight point two billion yuans in the half."
+},
+{
+"text": "The candidate won 52.4% of the vote, compared with 47.6% for her rival.",
+"reference": "The candidate won fifty two point four percent of the vote, compared with forty seven point six percent for her rival."
+},
+{
+"text": "Organisers said the 10 km fun run raised $86,000 for the children's hospital.",
+"reference": "Organisers said the ten kilometers fun run raised eighty six thousand dollars for the children's hospital."
+},
+{
+"text": "Rain delayed play for 2 hours, but the Rovers still made 287/6 by stumps.",
+"reference": "Rain delayed play for two hours, but the Rovers still made two hundred eighty seven sixths by stumps."
+},
+{
+"text": "The first 100 customers will receive a free tote bag.",
+"reference": "The first one hundred customers will receive a free tote bag."
+},
+{
+"text": "Residents have until 5 p.m. on Dec. 12 to comment on the plan.",
+"reference": "Residents have until five PM on Dec. twelve to comment on the plan."
+},
+{
+"text": "The phone's 6.7-inch screen refreshes at 120Hz and the battery lasts 2 days.",
+"reference": "The phone's six point seven inch screen refreshes at one hundred twenty hertz and the battery lasts two days."
+},
+{
+"text": "U.S. and U.K. officials met in Geneva on Thursday, a spokesperson said.",
+"reference": "US and UK officials met in Geneva on Thursday, a spokesperson said."
+},
+{
+"text": "Construction of the 14-storey tower is due to finish in mid-2028.",
+"reference": "Construction of the fourteen-storey tower is due to finish in mid-2028."
+},
+{
+"text": "The poll of 1,004 adults has a margin of error of ±3.1 points.",
+"reference": "The poll of thousand and four adults has a margin of error of plus or minus three point one points."
+},
+{
+"text": "The council's budget for 2026-27 includes $12.6M for roads and $3.4M for parks.",
+"reference": "The council's budget for two thousand twenty six to twenty seven includes twelve point six million dollars for roads and three point four million dollars for parks."
+},
+{
+"text": "CEO Martin Albrecht told staff the merger would be finalised \"within weeks, not months.\"",
+"reference": "CEO Martin Albrecht told staff the merger would be finalised \"within weeks, not months.\""
+},
+{
+"text": "The zoo welcomed twin red panda cubs, weighing 110 g and 125 g at birth.",
+"reference": "The zoo welcomed twin red panda cubs, weighing one hundred ten grams and one hundred twenty five grams at birth."
+},
+{
+"text": "Average daily traffic on the bridge is 68,500 vehicles.",
+"reference": "Average daily traffic on the bridge is sixty eight thousand five hundred vehicles."
+},
+{
+"text": "The airline's on-time rate was 71.8% in October, down from 76.2% in September.",
+"reference": "The airline's on-time rate was seventy one point eight percent in October, down from seventy six point two percent in September."
+},
+{
+"text": "Police seized 3.5 kg of cocaine and $120,000 in cash.",
+"reference": "Police seized three point five kilograms of cocaine and one hundred twenty thousand dollars in cash."
+},
+{
+"text": "The town hall clock, built in 1888, will chime again from Friday.",
+"reference": "The town hall clock, built in eighteen eighty eight, will chime again from Friday."
+},
+{
+"text": "A heat warning is in place until 9 p.m. Sunday, with temps above 38 °C.",
+"reference": "A heat warning is in place until nine PM Sunday, with temps above thirty eight degrees Celsius."
+},
+{
+"text": "The 4-day work week trial involved 61 companies and about 2,900 workers.",
+"reference": "The four-day work week trial involved sixty one companies and about two thousand nine hundred workers."
+},
+{
+"text": "The cafe at 14 Harbour Rd. reopens on Wed. after a 6-week refit.",
+"reference": "The cafe at fourteen Harbour Rd. reopens on Wednesday. after a six-week refit."
+},
+{
+"text": "Roughly 18% of adults now use a smartwatch, up from 11% in 2021.",
+"reference": "Roughly eighteen percent of adults now use a smartwatch, up from eleven percent in twenty twenty one."
+},
+{
+"text": "He's the youngest player, at 17 years and 211 days, to score for the club.",
+"reference": "He's the youngest player, at seventeen years and two hundred eleven days, to score for the club."
+},
+{
+"text": "FINAL SCORE: Northgate 24, Eastvale 21 (OT)",
+"reference": "FINAL SCORE: Northgate twenty four, Eastvale twenty one (OT)"
+},
+{
+"text": "The library lends out 1,300 books a week and 200 e-readers a month.",
+"reference": "The library lends out thousand three hundred books a week and two hundred e-readers a month."
+},
+{
+"text": "The firm's shares have fallen ~35% since their IPO at $21.",
+"reference": "The firm's shares have fallen tildethirty five percent since their IPO at twenty one dollars."
+},
+{
+"text": "The mayor said the fee was \"about 1/2 of what neighbouring towns charge.\"",
+"reference": "The mayor said the fee was \"about one half of what neighbouring towns charge.\""
+},
+{
+"text": "More than 9,000 runners took part, including 1,200 in the 42.2 km event.",
+"reference": "More than nine thousand runners took part, including one thousand, two hundred inches the forty two point two kilometers event."
+},
+{
+"text": "She was born on 04/07/1958 in a farmhouse outside Riverbend.",
+"reference": "She was born on April seventh, one thousand, nine hundred fifty eight in a farmhouse outside Riverbend."
+},
+{
+"text": "The new ferry timetable starts on 1 December 2026.",
+"reference": "The new ferry timetable starts on the first of december twenty twenty six."
+},
+{
+"text": "Officials confirmed 3 new cases on Monday, bringing the total to 27.",
+"reference": "Officials confirmed three new cases on Monday, bringing the total to twenty seven."
+},
+{
+"text": "The orchard grows 23 varieties of apple across 140 acres.",
+"reference": "The orchard grows twenty three varieties of apple across one hundred and forty acres."
+},
+{
+"text": "The tunnel, 3.2 mi long, took 6 yrs to build.",
+"reference": "The tunnel, three point two miles long, took six yrs to build."
+},
+{
+"text": "Scores: Kestrel Bay 12.10 (82) d. Port Alder 8.11 (59).",
+"reference": "Scores: Kestrel Bay twelve point one zero (eighty two) d. Port Alder eight point one one (fifty nine)."
+},
+{
+"text": "Investors pulled $1.4bn from the fund in Q2, it said in a statement on Tuesday.",
+"reference": "Investors pulled one point four billion dollars from the fund in Q2, it said in a statement on Tuesday."
+},
+{
+"text": "The ER at St. Luke's saw a 22% jump in visits during the heatwave.",
+"reference": "The ER at St. Luke's saw a twenty two percent jump in visits during the heatwave."
+},
+{
+"text": "\"Honestly? I thought we'd lost,\" said goalkeeper Ana Ferreira, laughing.",
+"reference": "\"Honestly? I thought we'd lost,\" said goalkeeper Ana Ferreira, laughing."
+},
+{
+"text": "The world's oldest tortoise, aged an estimated 192, lives on the island.",
+"reference": "The world's oldest tortoise, aged an estimated one hundred and ninety two, lives on the island."
+},
+{
+"text": "The flight from Harbourview to Port Alder takes 1 hr 15 min.",
+"reference": "The flight from Harbourview to Port Alder takes one hour fifteen minutes."
+},
+{
+"text": "Prices start at $1,299 for the 256GB model and $1,599 for 1TB.",
+"reference": "Prices start at one thousand, two hundred ninety nine dollars for the two hundred fifty six gigabytes model and one thousand, five hundred ninety nine dollars for one terabyte."
+},
+{
+"text": "Lt. Col. Ruth Okonkwo will take command of the base in January.",
+"reference": "lieutenant colonel Ruth Okonkwo will take command of the base in January."
+},
+{
+"text": "The rail line reopens Saturday; buses replace trains until 3 a.m.",
+"reference": "The rail line reopens Saturday; buses replace trains until three AM."
+},
+{
+"text": "Half of the 40 MPs said they would vote yes, 12 no and 8 were undecided.",
+"reference": "Half of the forty MP's said they would vote yes, twelve no and eight were undecided."
+},
+{
+"text": "Pre-orders open 10/15 at 9:00 a.m. PT.",
+"reference": "Pre-orders open ten fifteenths at nine o'clock a.m. PT."
+},
+{
+"text": "The 2nd-hand car market cooled, with prices down 4.8% m/m.",
+"reference": "The second- hand car market cooled, with prices down four point eight percent m/m."
+},
+{
+"text": "Volunteers delivered 3,600 meals in the 1st week of the program.",
+"reference": "Volunteers delivered three thousand six hundred meals in the first week of the program."
+},
+{
+"text": "The council set aside $750k — about 2% of its budget — for bike lanes.",
+"reference": "The council set aside seven hundred and fifty dollars k — about two percent of its budget — for bike lanes."
+},
+{
+"text": "On Nov. 9, 1989, the band played its first show in a garage in Eastvale.",
+"reference": "On Nov. nine, nineteen eighty nine, the band played its first show in a garage in Eastvale."
+},
+{
+"text": "The team's average age is 26.3, the youngest in the league.",
+"reference": "The team's average age is twenty six point three, the youngest in the league."
+},
+{
+"text": "Good evening, and welcome to the Harbourview Evening Digest for Thursday, November 6, 2026. It's 6:30 p.m., it's 17°C in the city, and here's what you need to know tonight.",
+"reference": "Good evening, and welcome to the Harbourview Evening Digest for Thursday, the sixth of november, twenty twenty six. It's six thirty p.m., it's seventeen degrees Celsius in the city, and here is what you need to know tonight."
+},
+{
+"text": "First, the money. The Harbourview Index closed up 0.8% at 8,214.3 points, its best day in 3 weeks. Quillon Systems led the gains, jumping 18.4% to $27.65 after it lifted its full-year profit forecast to between $410M and $430M. The local dollar bought 64.2 US cents, and gold slipped 1.1% to US$3,982 an ounce. Economists at Fernway Capital now expect the central bank to cut rates by 0.25 percentage points in February, though they say a move in March is \"just as likely.\"",
+"reference": "First, the money. The Harbourview Index closed up zero point eight percent at eight thousand two hundred and fourteen point three points, its best day in three weeks. Quillon Systems led the gains, jumping eighteen point four percent to twenty seven point six five dollars after it lifted its full-year profit forecast to between four hundred ten million dollars and four hundred thirty million dollars. The local dollar bought sixty four point two US cents, and gold slipped one point one percent to three thousand, nine hundred eighty two dollars an ounce. Economists at Fernway Capital now expect the central bank to cut rates by zero point two five percentage points in February, though they say a move in March is \"just as likely.\""
+},
+{
+"text": "In the city, council voted 7-2 last night to approve the $48.5 million ferry terminal rebuild. Mayor Ingrid Solberg called it \"the biggest thing we've done for the waterfront since the 1980s.\" Work starts in mid-2027 and should finish by Dec. 2029; the old terminal, built in 1964, will stay open until then. Residents can read the plans at www.harbourview.example/ferry or email ferry@harbourview.example with questions before 5 p.m. on Dec. 12.",
+"reference": "In the city, council voted seven to two last night to approve the forty eight point five million dollars ferry terminal rebuild. Mayor Ingrid Solberg called it \"the biggest thing we've done for the waterfront since the one thousand, nine hundred eighty seconds.\" Work starts in mid-2027 and should finish by Dec. twenty twenty nine; the old terminal, built in nineteen sixty four, will stay open until then. Residents can read the plans at www.harbourview.example/ferry or email ferry at harbourview dot example with questions before five PM on Dec. twelve."
+},
+{
+"text": "The weather bureau has issued a severe wind warning for the coast from 4 p.m. tomorrow. Gusts of up to 110 km/h are possible, with 25–40 mm of rain in the hills. Ferry services may be cancelled at short notice, so check the timetable before you travel. The weekend looks calmer: a top of 22° on Saturday and 24° on Sunday.",
+"reference": "The weather bureau has issued a severe wind warning for the coast from four PM tomorrow. Gusts of up to one hundred ten kilometers per hour are possible, with twenty five to forty millimeters of rain in the hills. Ferry services may be cancelled at short notice, so check the timetable before you travel. The weekend looks calmer: a top of twenty two degrees on Saturday and twenty four degrees on Sunday."
+},
+{
+"text": "On the roads, the new 1.2 km Westhaven bridge opens to traffic at 6:00 a.m. Monday. Transport officials say it will cut 20 minutes off the morning commute for about 68,500 drivers a day. Buses on routes 12, 14 and 47 will be re-routed from the same day.",
+"reference": "On the roads, the new one point two kilometers Westhaven bridge opens to traffic at six o'clock a.m. Monday. Transport officials say it will cut twenty minutes off the morning commute for about sixty eight thousand five hundred drivers a day. Buses on routes twelve, fourteen and forty seven will be re-routed from the same day."
+},
+{
+"text": "In health news, a trial at St. Luke's Hospital found a new asthma inhaler cut emergency visits by 31% among 860 patients aged 12 to 65. Dr. Simone Achterberg, who led the study, said the results were \"encouraging, but not the end of the story.\" The full paper is published in this week's issue of the Northern Medical Review.",
+"reference": "In health news, a trial at St. Luke's Hospital found a new asthma inhaler cut emergency visits by thirty one percent among eight hundred and sixty patients aged twelve to sixty five. doctor Simone Achterberg, who led the study, said the results were \"encouraging, but not the end of the story.\" The full paper is published in this week's issue of the Northern Medical Review."
+},
+{
+"text": "Sport now. The Northgate Rovers made it 7 straight home wins with a 3-1 victory over the Eastvale Comets on Saturday. Captain Sofia Brennan scored twice in the 2nd half, and coach Daniel Okafor said afterwards: \"We're not getting carried away — there's a long way to go.\" In basketball, the Fernhill Falcons lost 98-101 in double overtime, their 4th loss in 5 games. And 19-year-old cyclist Tomás Vidal won stage 4 of the Coastal Tour, covering 182.5 km at an average of 38.7 km/h.",
+"reference": "Sport now. The Northgate Rovers made it seven straight home wins with a three to one victory over the Eastvale Comets on Saturday. Captain Sofia Brennan scored twice in the second half, and coach Daniel Okafor said afterwards:\"We're not getting carried away — t here is a long way to go.\" In basketball, the Fernhill Falcons lost ninety eight to one hundred one inches double overtime, their fourth loss in five games. And nineteen-year-old cyclist Tomás Vidal won stage four of the Coastal Tour, covering one hundred eighty two point five kilometers at an average of thirty eight point seven kilometers per hour."
+},
+{
+"text": "Finally, something lighter. The Harbourview Zoo has welcomed twin red panda cubs, weighing just 110 g and 125 g at birth. Keepers are asking the public to suggest names; entries close at midnight on Sunday, and the winner gets a family pass worth $189. That's the digest for tonight. I'm Marta Kowalczyk; thanks for listening, and we'll be back tomorrow at 7 a.m.",
+"reference": "Finally, something lighter. The Harbourview Zoo has welcomed twin red panda cubs, weighing just one hundred ten grams and one hundred twenty five grams at birth. Keepers are asking the public to suggest names; entries close at midnight on Sunday, and the winner gets a family pass worth one hundred eighty nine dollars. That's the digest for tonight. I am Marta Kowalczyk; thanks for listening, and we'll be back tomorrow at seven AM."
+}
+]
