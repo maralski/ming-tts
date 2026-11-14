@@ -59,7 +59,7 @@ Choose a task with one of these options. The default is the built-in voice `US_E
 Add the package to your `Package.swift`:
 
 ```swift
-.package(url: "https://github.com/maralski/ming-tts.git", from: "0.1.0")
+.package(url: "https://github.com/maralski/ming-tts.git", from: "0.2.0")
 ```
 
 Then load the model once and stream audio:
