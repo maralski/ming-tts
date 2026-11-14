@@ -52,6 +52,8 @@ Choose a task with one of these options. The default is the built-in voice `US_E
 | `--dialect cantonese` | A Chinese dialect: cantonese or chuanyu. |
 | `--clone ref.wav --transcript "..."` | Clone the voice in a reference clip. |
 
+`--clone` trims silence from both ends of the clip before it encodes it.
+
 `--language` takes a code such as `en`, `ja` or `zh-Hant`, a language name, or `none`. Other options are `--speaker zero|none` and `--seed n`. To measure speed, run `ming-tts --bench`.
 
 ## Use the library
@@ -89,7 +91,7 @@ let cloned = try MingRequest(text: "Hello.", task: .plain, language: .english,
 
 `MingReferenceVoice` is `Codable`, so you can store an encoded voice and reuse it.
 
-Use a clip of up to 15 seconds (`MingReferenceVoice.recommendedMaxSeconds`). The clip shares the model's 512-position cache with the prompt and the generated audio, so a longer clip leaves a request too little room to speak. Trim the clip with `trimSilence(_:sampleRate:)` first, because a reference that ends in silence makes most clones stop after a few steps.
+Use a clip of up to 15 seconds (`MingReferenceVoice.recommendedMaxSeconds`). The clip shares the model's 512-position cache with the prompt and the generated audio, so a longer clip leaves a request too little room to speak. Trim the clip with `trimSilence(_:sampleRate:)` first, because a reference that ends in silence makes most clones stop after a few steps. `encodeReference(url:transcript:)` does not trim. To trim a file, read it with `MingTTSModel.readMono(_:)`, trim the samples, and pass them to `encodeReference(samples:sampleRate:transcript:)`.
 
 ### Sound tags
 

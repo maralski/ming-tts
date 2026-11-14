@@ -118,7 +118,10 @@ extension Args {
         switch (self.speaker, clone) {
         case (_, let wav?):
             guard let transcript else { throw MingTTSError.badInput("--clone needs --transcript") }
-            conditioning = .clone(try model.encodeReference(url: URL(fileURLWithPath: wav), transcript: transcript, seed: seed),
+            // A clip that ends in silence makes most clones stop after a few steps.
+            let (samples, rate) = try MingTTSModel.readMono(URL(fileURLWithPath: wav))
+            let clip = trimSilence(samples, sampleRate: rate)
+            conditioning = .clone(try model.encodeReference(samples: clip, sampleRate: rate, transcript: transcript, seed: seed),
                                   speakerEmbedding: speaker != "none")
         case ("zero", nil): conditioning = .zeroSpeaker
         case ("none", nil): conditioning = .noSpeaker

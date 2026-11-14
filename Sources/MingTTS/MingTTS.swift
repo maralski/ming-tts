@@ -175,8 +175,8 @@ public final class MingTTSModel: @unchecked Sendable {
         return net
     }
 
-    /// The file's samples mixed to mono at its own rate.
-    static func readMono(_ url: URL) throws -> (samples: [Float], sampleRate: Int) {
+    /// The file's samples mixed to mono at its own rate, for `trimSilence` before `encodeReference(samples:sampleRate:transcript:seed:)`.
+    public static func readMono(_ url: URL) throws -> (samples: [Float], sampleRate: Int) {
         let file = try AVAudioFile(forReading: url)
         let format = file.processingFormat
         let frames = AVAudioFrameCount(file.length)
