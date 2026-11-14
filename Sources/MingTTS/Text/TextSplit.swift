@@ -39,11 +39,17 @@ func splitText(_ prepared: String, maxLength: Int) -> [String] {
 
 // MARK: - frontend/toolkit.py
 
-let paralinguisticTags: Set<String> = [
-    "[Breathing]", "[Cough]", "[Sigh]", "[Laughter]", "[Surprise-ah]", "[Surprise-oh]",
-    "[Dissatisfaction-hnn]", "[Uhm]", "[Confirmation-en]", "[Question-ei]", "[Question-ah]",
-    "[Question-en]", "[Question-oh]", "[Question-huh]",
-]
+/// The sounds the model performs where a tag is written in the text, as in
+/// `"Well [Sigh] that is that."`. The raw value is the tag, spelled as the model was trained on
+/// it; the text frontend passes these through untouched and reads any other bracketed text as words.
+public enum MingSoundTag: String, CaseIterable, Sendable {
+    case breathing = "[Breathing]", cough = "[Cough]", sigh = "[Sigh]", laughter = "[Laughter]"
+    case surpriseAh = "[Surprise-ah]", surpriseOh = "[Surprise-oh]", dissatisfactionHnn = "[Dissatisfaction-hnn]"
+    case uhm = "[Uhm]", confirmationEn = "[Confirmation-en]", questionEi = "[Question-ei]", questionAh = "[Question-ah]"
+    case questionEn = "[Question-en]", questionOh = "[Question-oh]", questionHuh = "[Question-huh]"
+}
+
+let paralinguisticTags = Set(MingSoundTag.allCases.map(\.rawValue))
 
 /// `preprosess_text`. Python's `.` excludes only `\n`, so patterns spell it `[^\n]`.
 func stripMarkdown(_ text: String) -> String {

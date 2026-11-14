@@ -4,6 +4,11 @@ import AVFoundation
 import Foundation
 
 public struct SynthesisOptions: Sendable {
+    /// The flow head's classifier-free guidance scale. 2.0 is the reference's value. After a
+    /// `[Laughter]` tag the model can keep laughing to `maxSteps` instead of returning to the
+    /// words; on one client's 36 lines with sound tags, 1.5 finished 29 on the first attempt
+    /// against 24 at 2.0 and 21 at 3.0. Retry a line that ran to `maxSteps`
+    /// (`GenerationReport.stopped` is false) at 1.5 or 1.0 as well as with a new seed.
     public var cfg: Float = 2.0
     public var flowSteps: Int = 10
     public var maxSteps: Int = 1000
@@ -24,9 +29,12 @@ public final class MingTTSModel: @unchecked Sendable {
     private var speakerNetCache: CAMPlus?
     private let speakerNetLock = NSLock()
 
-    /// `directory` holds the Hugging Face checkpoint: model.safetensors, config.json, tokenizer.json
-    /// and, for cloning, campplus.onnx.
+    /// `directory` holds the Hugging Face checkpoint: model.safetensors, tokenizer.json and, for
+    /// cloning, campplus.onnx.
+    /// - Throws: `MingTTSError.badCheckpoint` naming the files the folder lacks. `MingCheckpoint`
+    ///   makes the same check without loading.
     public init(directory: URL) throws {
+        try MingCheckpoint(directory: directory).require(MingCheckpoint.synthesisFiles)
         self.directory = directory
         engine = try MingEngine(directory: directory)
         tokenizer = try MingTokenizer(tokenizerJSON: directory.appendingPathComponent("tokenizer.json"))
@@ -161,6 +169,7 @@ public final class MingTTSModel: @unchecked Sendable {
         speakerNetLock.lock()
         defer { speakerNetLock.unlock() }
         if let speakerNetCache { return speakerNetCache }
+        try MingCheckpoint(directory: directory).require(MingCheckpoint.cloningFiles)
         let net = try CAMPlus(onnx: directory.appendingPathComponent("campplus.onnx"))
         speakerNetCache = net
         return net

@@ -161,7 +161,9 @@ func compare(_ got: [Float], _ want: [Float]) -> (maxAbs: Float, cosine: Double,
 func fmt(_ x: Double, _ digits: Int = 3) -> String { String(format: "%.\(digits)f", x) }
 
 func loadModel(_ args: Args) throws -> MingTTSModel {
-    guard let weights = args.weights else { throw MingTTSError.badInput("pass --weights dir or set MING_WEIGHTS") }
+    guard let weights = args.weights ?? MingCheckpoint.find()?.directory.path else {
+        throw MingTTSError.badInput("pass --weights dir or set MING_WEIGHTS; no checkpoint is in the Hugging Face cache")
+    }
     let t0 = Date()
     let model = try MingTTSModel(directory: URL(fileURLWithPath: weights))
     print("loaded \(weights) in \(fmt(Date().timeIntervalSince(t0), 2)) s")

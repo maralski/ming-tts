@@ -22,7 +22,7 @@ pip install -U huggingface_hub
 hf download inclusionAI/Ming-3.0-tts-0.5B --local-dir ~/models/Ming-3.0-tts-0.5B
 ```
 
-The directory must hold `model.safetensors`, `config.json`, `tokenizer.json` and `campplus.onnx`. The weights are under inclusionAI's license, not this repository's. See [NOTICE](NOTICE).
+The directory must hold `model.safetensors` and `tokenizer.json`, and `campplus.onnx` to clone a voice. `MingCheckpoint(directory:).missingFiles` names the files a folder lacks, and loading a folder that lacks one fails with the same names. The weights are under inclusionAI's license, not this repository's. See [NOTICE](NOTICE).
 
 ## Build
 
@@ -32,7 +32,7 @@ swift build -c release
 
 ## Use the command-line tool
 
-Pass the checkpoint directory with `--weights`, or set `MING_WEIGHTS`:
+Pass the checkpoint directory with `--weights`, or set `MING_WEIGHTS`. With neither, the tool uses the newest complete snapshot in the Hugging Face cache, which is where `hf download` without `--local-dir` puts it:
 
 ```sh
 export MING_WEIGHTS=~/models/Ming-3.0-tts-0.5B
@@ -52,7 +52,7 @@ Choose a task with one of these options. The default is the built-in voice `US_E
 | `--dialect cantonese` | A Chinese dialect: cantonese or chuanyu. |
 | `--clone ref.wav --transcript "..."` | Clone the voice in a reference clip. |
 
-Other options are `--language en|ja|...|none`, `--speaker zero|none` and `--seed n`. To measure speed, run `ming-tts --bench`.
+`--language` takes a code such as `en`, `ja` or `zh-Hant`, a language name, or `none`. Other options are `--speaker zero|none` and `--seed n`. To measure speed, run `ming-tts --bench`.
 
 ## Use the library
 
@@ -88,6 +88,18 @@ let cloned = try MingRequest(text: "Hello.", task: .plain, language: .english,
 ```
 
 `MingReferenceVoice` is `Codable`, so you can store an encoded voice and reuse it.
+
+Use a clip of up to 15 seconds (`MingReferenceVoice.recommendedMaxSeconds`). The clip shares the model's 512-position cache with the prompt and the generated audio, so a longer clip leaves a request too little room to speak. Trim the clip with `trimSilence(_:sampleRate:)` first, because a reference that ends in silence makes most clones stop after a few steps.
+
+### Sound tags
+
+The model performs 14 sounds where a tag is written in the text, as in `"Well [Sigh] that is that."`. `MingSoundTag.allCases` lists them. Any other bracketed text is read as words.
+
+After a `[Laughter]` tag the model can keep laughing until `SynthesisOptions.maxSteps` and never return to the words. `GenerationReport.stopped` is then `false`. Retry such a line at a lower `SynthesisOptions.cfg` as well as with a new seed. On the 36 lines with sound tags that Drama Studio tests with, 1.5 finished 29 on the first attempt, against 24 at the default 2.0 and 21 at 3.0.
+
+### Built-in voices
+
+`MingVoice.catalog` lists the 241 built-in voices. Each voice's `kind`, `language` and `emotion` say what its name encodes: an English voice such as `UK_George`, a Chinese voice, a Chinese voice recorded in one emotion such as `灵妩月_高兴`, or a character from a show.
 
 ## Test
 

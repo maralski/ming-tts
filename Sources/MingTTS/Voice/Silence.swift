@@ -5,7 +5,7 @@ import Foundation
 /// `frontend.audio_processing.trim_trailing_silence`: scan 0.1 s frames backwards for the last
 /// one whose mean absolute sample is above 1e-3 and keep 0.3 s beyond it. Silent throughout, or
 /// shorter than one frame, keeps the fixed tail.
-func trimTrailingSilence(_ speech: [Float], sampleRate: Int, threshold: Float = 1e-3, tailSeconds: Double = 0.3) -> [Float] {
+public func trimTrailingSilence(_ speech: [Float], sampleRate: Int, threshold: Float = 1e-3, tailSeconds: Double = 0.3) -> [Float] {
     if speech.isEmpty { return speech }
     let frame = Int(Double(sampleRate) * 0.1), tail = Int(Double(sampleRate) * tailSeconds)
     if frame <= 0 || speech.count < frame { return Array(speech.prefix(tail)) }
@@ -22,8 +22,9 @@ func trimTrailingSilence(_ speech: [Float], sampleRate: Int, threshold: Float = 
 }
 
 /// `speech` from 50 ms before its first to 50 ms after its last 10 ms frame whose RMS is above 1% of the peak (-40 dB).
-/// Silent throughout keeps nothing.
-func trimSilence(_ speech: [Float], sampleRate: Int, padSeconds: Double = 0.05) -> [Float] {
+/// Silent throughout keeps nothing. Trim a clip with this before `MingTTSModel.encodeReference`: a reference that ends in
+/// silence makes most clones stop after a few steps.
+public func trimSilence(_ speech: [Float], sampleRate: Int, padSeconds: Double = 0.05) -> [Float] {
     let frame = max(1, sampleRate / 100), pad = Int(Double(sampleRate) * padSeconds)
     let floor = (speech.map(abs).max() ?? 0) * 0.01
     let loud = stride(from: 0, to: speech.count, by: frame).filter { start in

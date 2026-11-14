@@ -17,14 +17,16 @@ public enum MingLanguage: String, CaseIterable, Sendable {
     case chinese = "Chinese", english = "English", japanese = "Japanese", korean = "Korean"
     case german = "German", french = "French", spanish = "Spanish"
 
-    /// `tts_tasks._TARGET_LANGUAGE_NAMES`: a short code (`ja`) or a full name, any case.
+    /// `tts_tasks._TARGET_LANGUAGE_NAMES`: a short code (`ja`) or a full name, any case. A BCP 47
+    /// code with a script or region (`zh-Hant`, `en-US`, `es_MX`) names its base language.
     public init?(id: String) {
         let codes: [String: MingLanguage] = [
             "zh": .chinese, "zh-cn": .chinese, "en": .english, "ja": .japanese, "ko": .korean,
             "de": .german, "fr": .french, "es": .spanish, "yue": .chinese, "zh-yue": .chinese, "cantonese": .chinese,
         ]
         let id = id.trimmingCharacters(in: .whitespaces).lowercased()
-        guard let language = codes[id] ?? Self.allCases.first(where: { $0.rawValue.lowercased() == id }) else { return nil }
+        let base = { Locale.Language(identifier: id).languageCode.flatMap { codes[$0.identifier] } }
+        guard let language = codes[id] ?? Self.allCases.first(where: { $0.rawValue.lowercased() == id }) ?? base() else { return nil }
         self = language
     }
 
@@ -97,6 +99,15 @@ public struct MingReferenceVoice: Sendable, Codable, Equatable {
     }
 
     public var latentRows: Int { latents.count / Self.latentDim }
+
+    /// Audio one latent row stands for: 3528 samples at 44.1 kHz.
+    public static let secondsPerLatentRow = 0.08
+    /// The longest clip to clone from. The clip's rows share the model's 512-position cache with
+    /// the prompt and the generated audio, so a longer clip leaves a request too little room to
+    /// speak; the reference has the same limit. A clip over 512 rows (about 41 s) is refused.
+    public static let recommendedMaxSeconds = 15.0
+    /// The encoded clip's length, after front padding to whole rows.
+    public var seconds: Double { Double(latentRows) * Self.secondsPerLatentRow }
 }
 
 /// What the prompt conditions the voice on. `noSpeaker` has no speaker row; `zeroSpeaker` is the
